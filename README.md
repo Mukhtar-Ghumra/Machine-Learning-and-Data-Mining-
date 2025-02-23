@@ -1,30 +1,73 @@
 # Machine Learning and Data Mining
 University of Salford Term 1 Assessment
 
-**1. Task_1_Classification.ipynb**
+This repository contains three key tasks related to machine learning and Data Mining. Each task is presented in a Jupyter notebook and provides an in-depth approach to data preprocessing, modeling, and analysis.
 
-This notebook uses classification models to predict income levels based on demographic data.
+## Table of Contents
+1. [Task 1: Income Prediction (Classification)](#task-1-income-prediction-classification)
+2. [Task 2: Obesity Clustering](#task-2-obesity-clustering)
+3. [Task 3: Sentiment Analysis on Airline Twitter Data](#task-3-sentiment-analysis-on-airline-twitter-data)
+4. [Report Overview](#report-overview)
 
-EDA & Preprocessing: Includes data cleaning, feature encoding, and handling class imbalance.
+---
 
-Models: Implements K-Nearest Neighbors (K-NN) and Random Forest classifiers.
+### Task 1: Income Prediction (Classification)
 
-Azure Integration: Showcases implementation using Azure Machine Learning, including setting up the pipeline and training models.
+**Objective:** Predict income levels based on demographic data.
 
-**2. Task_2_Clustering.ipynb**
+- **EDA & Preprocessing:**
+  - Data cleaning, handling missing values, and encoding categorical features.
+  - Addressed class imbalance with techniques such as SMOTE.
+  
+- **Models Used:**
+  - K-Nearest Neighbors (K-NN)
+  - Random Forest Classifier
+  
+- **Azure Integration:**
+  - Implemented using Azure Machine Learning, showcasing model pipeline setup and training process.
 
-This notebook applies clustering techniques to obesity-related data to understand lifestyle patterns.
+---
 
-EDA & Preprocessing: Includes data visualization, feature scaling, and PCA for dimensionality reduction.
+### Task 2: Obesity Clustering
 
-Models: Implements K-Means++ and Agglomerative Clustering algorithms.
+**Objective:** Analyze obesity-related data to understand lifestyle patterns.
 
-**3. Task_3_Sentiment_Analysis.ipynb**
+- **EDA & Preprocessing:**
+  - Visualized the data to identify patterns.
+  - Performed feature scaling and applied PCA for dimensionality reduction.
 
-This notebook performs sentiment analysis on Twitter data about US airlines.
+- **Models Used:**
+  - K-Means++ Clustering
+  - Agglomerative Clustering
 
-EDA & Preprocessing: Covers tokenization, stemming, stop-word removal, and feature extraction.
+---
 
-Model: Uses Multinomial Naive Bayes for sentiment classification.
+### Task 3: Sentiment Analysis on Airline Twitter Data
 
-Analysis: Calculates sentiment scores, creates visualizations, and draws insights from customer feedback.
+**Objective:** Perform sentiment analysis on Twitter data related to US airlines.
+
+- **EDA & Preprocessing:**
+  - Tokenization, stemming, and stop-word removal.
+  - Extracted features using TF-IDF vectorization.
+
+- **Model Used:**
+  - Multinomial Naive Bayes for sentiment classification.
+
+- **Analysis:**
+  - Sentiment scores calculated for each tweet.
+  - Visualizations of sentiment distribution and insights drawn from the analysis.
+
+---
+
+### Report Overview
+
+This repository includes detailed notebooks and a report that comprehensively explains each of the tasks mentioned above. The report includes:
+
+- **Exploratory Data Analysis (EDA):** Explanation of data preprocessing steps and how they impacted model performance.
+- **Model Descriptions:** Explanation of the models used, the rationale behind choosing them, and their results.
+- **Azure Integration:** A detailed breakdown of the Azure Machine Learning integration for model training and deployment.
+- **Results & Insights:** Visualizations and in-depth insights drawn from the analyses.
+
+---
+
+Feel free to explore the notebooks for a deeper understanding of the methodologies and results!
